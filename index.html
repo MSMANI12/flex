@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>flex</title>
+   <meta charset="UTF=8">
+   <meta name="description" content="free web tutorial">
+   <meta name="viewport" content="width-device=width,initial-scale=0.1">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h1>flex</h1>
+   <ul>
+     <li>
+       <h2>flex container</h2></li>
+	 <li>
+       <h2>flex iteam</h2>
+     </li>
+	 </ul>
+	 <h2>FLEX CONTAINER</h2>
+	 <ol start="1">
+	   <li>flex-direction</li>
+	   <li>flex-wrab</li>
+	   <li>flex-flow</li>
+	   <li>justify-content</li>
+	   <li>align-iteam</li>
+	   <li>align-content</li>
+	 </ol>
+	 <h2>1.Flex-direction</h2>
+	   <ol start="lowercase">
+	     <li><h3>flex-direction:row;</h3></li>
+		 <li><h3>flex-direction:row reverse;</h3></li>
+		 <li><h3>flex-direction:column;</h3></li>
+		 <li><h3>flex-direction:column reverse;</h3></li>
+	   </ol>
+	   <h2>flex-direction:row;</h2>
+	     <div id="row" class="content">
+	     <div class="aa">lion</div>
+		 <div class="ab">tiger</div>
+		 <div class="ac">cheeta</div>
+		 <div class="ad">horse</div>
+	     </div>
+		 
+		 <h2>flex-direction:row-reverse;</h2>
+	     <div id="row-reverse" class="content">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+		 
+		  <h2>flex-direction:column;</h2>
+	     <div id="column" class="content">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+	 
+	      <h2>flex-direction:column-reverse;</h2>
+	     <div id="column-reverse" class="content">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+	  
+	 
+	 <h2>flex-wrab</h2>
+	 <ul>
+	 <li>
+	   <h3>flex-wrap:nowrap;</h3></li>
+	   <li><h3>flex-wrab:wrap;</h3></li>
+	   <li><h3>flex-wrab:wrap-reverse;</h3></li>
+	 </ul>
+	  <h2>flex-wrap:nowrap;</h2>
+	     <div class="con-1">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+		 
+		 
+		 
+		 
+		 <h2>flex-wrap:wrap;</h2>
+	     <div class="con-2">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		 
+		 
+		 
+		 
+		 <h2>flex-wrap:wrap-reverse;</h2>
+	     <div class="con-3">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+		 
+	 <h2>flex-flow</h2>
+	 <ul>
+	   <li><h3>flex-flow:row wrap;</h3></li>
+	   <li><h3>flex-flow:row-reverse nowrap</h3></li>
+	   <li><h3>flex-flow:column wrap-reverse</h3></li>
+	   <li><h3>flex-flow:column wrap</h3></li>
+	   </ul>
+	   
+	   
+	    <h2>flex-flow:row wrap;</h2>
+	      <div class="row-wrap">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	    
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+         <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+		 
+		 <h2>flex-flow:row reverse;</h2>
+	      <div class="row-reverse">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 </div>
+		 
+		 <h2>flex-flow:column wrap;</h2>
+	      <div class="column wrap">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 </div>
+	    
+		 <h2>flex-flow:column wrap-reverse;</h2>
+	      <div class="column reverse">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 </div>
+	 
+     <h2>align-iteam</h2>
+	 <ul>
+	    <li>align-items:stretch;</li>
+		<li>align-items:center;</li>
+		<li>align-items:start;</li>
+		<li>align-items:end;</li>
+	 
+	 </ul>
+	 <h2>align-items:stretch;</h2>
+	      <div class="con-4">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 
+     <h2>align-items:center;</h2>
+         <div class="con-5">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>     
+      
+	  <h2>align-items:start;</h2>
+         <div class="con-6">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <h2>align-items:end;</h2>
+         <div class="con-7">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+		 
+		 
+		 <h2>align-content:space-evenly;</h2>
+         <div class="align-evenly">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> 
+		 
+		 <h2>align-content:space-between;</h2>
+         <div class="space-between">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+		 <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> 
+		 
+		 <h2>justify:content;</h2>
+		 <ul>
+		    <li>justify-content:strat;</li>
+			<li>justify-content:center;</li>
+			<li>justify-content:space-between;</li>
+			<li>justify-content:space-around;</li>
+			<li>justify-content:space-evenly;</li>
+			</ul>
+      
+       	<h2>justify-content:strat;</h2>
+         <div class="start">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> 
+
+        <h2>justify-content:space-between;</h2>
+         <div class="space">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> 
+        
+		 <h2>justify-content:space-around;</h2>
+         <div class="around">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> 
+		 
+		  <h2>justify-content:space-evenly;</h2>
+         <div class="evenly">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div> 
+         
+		   <h2>justify-content:center;</h2>
+         <div class="center">
+	     <div class="a">lion</div>
+		 <div class="b">tiger</div>
+		 <div class="c">cheeta</div>
+		 <div class="d">horse</div>
+	     </div>
+
+        <h2>flex</h2>
+        <ul>
+		  <li>flex-grow</li>
+		  <li>flex-shrink</li>
+		  <li>flex-basis</li>
+		</ul>		
+        
+		<h2>flex-grow</h2>
+		 <div id="flex-grow">
+	     <div class="g">lion</div>
+		 <div class="r">tiger</div>
+		 <div class="o">cheeta</div>
+		 <div class="w">horse</div>
+	     </div>
+		 
+		 <h2>flex-shrink</h2>
+		 <div class="flex-shrink">
+	     <div class="s"><p>lion</p></div>
+		 <div><p  class="i">tiger</p></div>
+		 <div class="s"><p>cheeta</p></div>
+		 <div class="s"><p>horse</p></div>
+	     </div>
+		 
+		 <h2>flex-basis</h2>
+		   <ul>
+		     <li>flex-basis:auto;</li>
+			 <li>flex-basis:0;</li>
+			 <li>flex-basis:200px;</li>
+			 </ul>
+		
+	    <h2>flex-basis</h2>
+		 <div id="flex-basis">
+	     <div class="ba">lion</div>
+		 <div class="sis">tiger</div>
+		 <div class="ba">cheeta</div>
+		 <div class="ba">horse</div>
+	     </div>
+		
+		
+		 
+		 
+		 <h2>order</h2>
+		 <div id="order">
+		 <span class="or1">1.lion</span>
+		 <article id="end" class="or2">2.tiger</article>
+		 <div class="or3">3.cheeta</div>
+		 
+		 </div>
+		 <section>
+		 <h2>align  self</h2>
+		 <h3>align  self:end</h3>
+		 <h3>align  self:start</h3>
+		 <h3>align  self:center</h3>
+		 <h3>align  self:stretch</h3>
+		 <h2>align-self:start;</h2>
+		 
+		 <div class="con-start">
+	     <div class="sl4">lion</div>
+		 <div class="sl3">tiger</div>
+		 <div class="sl4">cheeta</div>
+		 <div class="sl4">horse</div>
+	     </div>
+		 <h2>align-self:end;</h2>
+         <div class="con-self">
+	     <div class="sl1">lion</div>
+		 <div class="sl2">tiger</div>
+		 <div class="sl1">cheeta</div>
+		 <div class="sl1">horse</div>
+	     </div>     
+         
+         <h2>align-self:start;</h2>
+         <div class="con-center">
+	     <div class="slce">lion</div>
+		 <div class="sler">tiger</div>
+		 <div class="slce">cheeta</div>
+		 <div class="slce">horse</div>
+	     </div>     		 
+		 
+		 
+		 
+		 </section>
+</body>
+</html>
